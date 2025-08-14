@@ -3,7 +3,7 @@
 
 import type { VercelRequest, VercelResponse } from "@vercel/node";
 
-const ALLOWED_ORIGIN = "https://YOUR-SITE.framer.website"; // <-- change this to your published Framer origin
+const ALLOWED_ORIGIN = "https://concave-marketing-477017.framer.app"; // <-- change this to your published Framer origin
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
   // CORS (includes preflight)
